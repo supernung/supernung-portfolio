@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Works | Supernung</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body{
+            background:#0F172A;
+            color:white;
+        }
+
+        .project-card:hover{
+            transform:translateY(-10px);
+            transition:.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="py-6 border-b border-gray-800">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+
+            <h1 class="text-3xl font-bold">
+                Super<span class="text-purple-500">nung</span>
+            </h1>
+
+            <a href="index.html"
+               class="border border-purple-500 px-5 py-2 rounded-full hover:bg-purple-500">
+                Back Home
+            </a>
+
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="py-24 text-center">
+        <h1 class="text-5xl font-bold mb-6">
+            My Visual Works
+        </h1>
+
+        <p class="text-gray-400 max-w-2xl mx-auto">
+            Collection of VJ performances, projection mapping,
+            motion graphics and immersive visual experiences.
+        </p>
+    </section>
+
+     <!-- video reels -->
+<!--<section class="container mx-auto px-6 mb-20">
+
+    <div class="aspect-video rounded-xl overflow-hidden">
+
+        <iframe
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            allowfullscreen>
+        </iframe>
+
+    </div>-->
+
+</section>
+
+    <!-- Projects -->
+    <section class="container mx-auto px-6 pb-20">
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div class="project-card bg-slate-800 rounded-xl overflow-hidden">
+                <img src="images/KONSER.jpeg" class="w-full h-60 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Festival Visual Show</h3>
+                    <p class="text-gray-400">
+                        Live visual performance for music festival.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card bg-slate-800 rounded-xl overflow-hidden">
+                <img src="images/WISUDA PESANTREN.jpeg" class="w-full h-60 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Projection Mapping</h3>
+                    <p class="text-gray-400">
+                        Large scale building projection mapping project.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card bg-slate-800 rounded-xl overflow-hidden">
+                <img src="images/LAUNCH PADEL.jpeg" class="w-full h-60 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Corporate Event</h3>
+                    <p class="text-gray-400">
+                        Interactive visuals for corporate activation.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
